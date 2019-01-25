@@ -1,0 +1,29 @@
+                     //*-------------------------*//
+		    //      SCHOOL OF LINUX        //
+		     //*-------------------------*//
+
+
+	/*----------------------------------------------------*/
+	/*   NAME      	 : THENNARASU            	      */
+	/*   DATE 	 : 25-01-2019	        	      */
+	/*   FILE NAME 	 : ls.txt	        	      */
+	/*   DESCRIPTION : EXPLANATIONS OF LS		      */
+	/*----------------------------------------------------*/
+
+
+ls :
+     It will give the list the current directory contents.
+     List the information about the files.
+
+
+RID1 :
+	Name your executable as my_ls
+
+RID2 :
+	Executing my_ls without parameters has to takes the listing directory as current directory
+RID3 :
+	Executing my_ls with one argument has to check wether the passed argument is a directory or not
+RID4 :
+	Executing my_ls with one argument has to read the directory contents and display the list of files and directories mentioned in directory mentioned in the argument.
+RID5 :
+	Close the dir.
