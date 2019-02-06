@@ -44,10 +44,12 @@ int main(int argc,char*argv[])
 	
 	perror("pthread :");
 
-	/* join with a terminated thread */
-        /* int pthread_join(pthread_t thread, void **retval); */
+	
 	threadfun(&input_data1);
 
+	/* join with a terminated thread */
+        /* int pthread_join(pthread_t thread, void **retval); */
 	s = pthread_join(t,&res);
+	
 	perror("pthread_join:");
 }
