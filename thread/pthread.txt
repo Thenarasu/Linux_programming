@@ -1,0 +1,8 @@
+/*------------------------------------------------------*/
+/*	Author	    : Thennarasu D			*/
+/*	Date	    : 5-Feb-2019			*/
+/*	Filename    : thread.txt			*/
+/*	Description : How thread working		*/
+/*------------------------------------------------------*/
+
+	 A program to control multiple different flows of work that overlap in time. Each flow of work is referred to as a thread, and creation and control over these flows is achieved by making calls to the POSIX Threads API.
