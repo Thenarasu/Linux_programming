@@ -1,0 +1,10 @@
+/*------------------------------------------------------*/
+/*	Author	    : Thennarasu D			*/
+/*	Date	    : 6-Feb-2019			*/
+/*	Filename    : mutex.txt				*/
+/*	Description : Posix Thread header		*/
+/*------------------------------------------------------*/
+
+
+	Locking and unlocing a mutex.To lock a mutex,we specify the mutex in a call to pthread_mutex_lock().
+	The pthread_mutex_unlock() function unlocks a mutex previously calling thread.It is an error to unlock a mutex that is not currently locked, or to unlock a mutex that is locked by another thread.
