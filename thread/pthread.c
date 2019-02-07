@@ -66,15 +66,13 @@ int main(int argc,char*argv[])
 	perror("pthread_join:");
 	
 	s3 = pthread_join(t3,&res3);
-=======
-	
+
 	threadfun(&input_data1);
 
 	/* join with a terminated thread */
         /* int pthread_join(pthread_t thread, void **retval); */
 	s = pthread_join(t,&res);
 	
->>>>>>> 86f0747714a7bea153bfad8646524dcab92c1ccf
 	perror("pthread_join:");
 }
 
