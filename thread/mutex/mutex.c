@@ -21,10 +21,12 @@ static void *threadfun(void *arg)
 
 	for(j = 0; j < loops; j++)
 	{
+		/*pthread mutex lock */
 		s = pthread_mutex_lock(&mtx);
 		loc = glob;
 		loc++;
 		glob = loc;
+		/*pthread_mutx unlock*/
 		s = pthread_mutex_unlock(&mtx);
 	}
 	return NULL;
@@ -38,15 +40,16 @@ int main(int argc,char *argv[ ])
 
 	loops = (argc>1) ?1000 :100000000;
 
+	/* pthread_create */
 	if( pthread_create(&t1,NULL,threadfun,&loops) != 0)
 		pthread_exit("pthread_create1:");
-
+        /* pthread_create */
 	if( pthread_create(&t2,NULL,threadfun,&loops) != 0)
 		pthread_exit("pthread_create2:");
-
+        /* pthread_join */
 	if(pthread_join(t1, NULL) != 0)
 		pthread_exit("pthread_join1:");
-
+        /* pthread_join */
 	if(pthread_join(t2, NULL) != 0)
 		pthread_exit("pthread_join2:");
 	printf("glob = %d\n",glob);
