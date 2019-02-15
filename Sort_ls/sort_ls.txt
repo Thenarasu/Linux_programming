@@ -1,0 +1,9 @@
+/*---------------------------------------------*/
+/*	Author       : Thennarasu.D	       */
+/*	Date	     : 15-Feb-2019	       */
+/*	Filename     : sort_ls.txt	       */
+/*	Description  : sorting ls	       */
+/*---------------------------------------------*/
+
+
+    Sorting list files using opendir and readdir.
