@@ -35,7 +35,7 @@ int main(int argc,char *argv[ ] )
 	socket_fd = socket(AF_INET,SOCK_DGRAM,0);
 	perror("socket");
 
-
+	
 	socket_addr.sin_family = AF_INET;
 	socket_addr.sin_port = htons(atoi(argv[1]));
 	
