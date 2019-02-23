@@ -46,7 +46,6 @@ int main(int argc,char*argv[])
 	
 	perror("pthread :");
 
-<<<<<<< HEAD
 	s2 = pthread_create(&t2,NULL,threadfun1,&input_data2);
 
 	perror("pthread:");
