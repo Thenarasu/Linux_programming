@@ -1,0 +1,12 @@
+/*----------------------------------------------------*/
+/*	  Author	: Thennarasu.D		      */
+/*	  Date	        : 21Feb2019		      */
+/*	  Filename	: ipv4.txt		      */
+/*	  Description   : ipv4 client and server chat */
+/*----------------------------------------------------*/
+
+
+
+In this socket program IPv4 server and client chat.
+In this internet socket program using TCP model.
+
